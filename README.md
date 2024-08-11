@@ -21,3 +21,9 @@ To enable precommit:
 
 1. download pre-commit
 2. pre-commit install (to install script from .pre-commit-config.yaml)
+
+To authorize in localhost:8000/api/docs
+
+1. create user through /api/user/create/
+2. get user token from /api/user/token/
+3. click Authorize and type: Token {token return from /api/user/token}
