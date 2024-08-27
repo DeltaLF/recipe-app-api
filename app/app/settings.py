@@ -153,3 +153,7 @@ SWAGGER_SETTINGS = {
         }
     },
 }
+
+SPECTACULAR_SETTINGS = {
+    'COMPONENT_SPLIT_REQUEST': True
+}
